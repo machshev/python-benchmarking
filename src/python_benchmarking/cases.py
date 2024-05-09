@@ -3,8 +3,8 @@ from multiprocessing import Process
 
 
 CONCURRENCY_CLASS = (None, Thread, Process)
-WORKERS = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-LOAD = (1, 100, 1000, 100000, 1000000)
+WORKERS = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+LOAD = (1, 100, 1000, 100000)
 CASES = [
     (c_class, workers, load)
     for load in LOAD
